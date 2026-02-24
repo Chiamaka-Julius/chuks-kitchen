@@ -1,0 +1,11 @@
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Models/bin/Debug/net8.0/Chuks-Kitchen.Models.deps.json
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Models/bin/Debug/net8.0/Chuks-Kitchen.Models.dll
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Models/bin/Debug/net8.0/Chuks-Kitchen.Models.pdb
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Models/obj/Debug/net8.0/Chuks-Kitchen.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Models/obj/Debug/net8.0/Chuks-Kitchen.Models.AssemblyInfoInputs.cache
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Models/obj/Debug/net8.0/Chuks-Kitchen.Models.AssemblyInfo.cs
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Models/obj/Debug/net8.0/Chuks-Kitchen.Models.csproj.CoreCompileInputs.cache
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Models/obj/Debug/net8.0/Chuks-Kitchen.Models.dll
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Models/obj/Debug/net8.0/refint/Chuks-Kitchen.Models.dll
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Models/obj/Debug/net8.0/Chuks-Kitchen.Models.pdb
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Models/obj/Debug/net8.0/ref/Chuks-Kitchen.Models.dll

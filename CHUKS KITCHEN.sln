@@ -1,0 +1,54 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chuks-Kitchen.Models", "src\Chuks-Kitchen.Models\Chuks-Kitchen.Models.csproj", "{58689060-7FA1-1F8B-62B0-F4144C8A8461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chuks-Kitchen.API", "src\Chuks-Kitchen.API\Chuks-Kitchen.API.csproj", "{0437E9D3-FD96-17A4-A829-ADF70B4FEBD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chuks-Kitchen.Services", "src\Chuks-Kitchen.Services\Chuks-Kitchen.Services.csproj", "{27624A02-D48D-6992-6D29-6F30599939AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chuks-Kitchen.Migrations  ", "Chuks-Kitchen.Migrations  ", "{C3A0BA3A-453E-0DD4-9D2F-71345009D9D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chuks-Kitchen.Migrations", "src\Chuks-Kitchen.Migrations  \Chuks-Kitchen.Migrations.csproj", "{E1833F68-6043-B099-A9C2-355104F68B76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58689060-7FA1-1F8B-62B0-F4144C8A8461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58689060-7FA1-1F8B-62B0-F4144C8A8461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58689060-7FA1-1F8B-62B0-F4144C8A8461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58689060-7FA1-1F8B-62B0-F4144C8A8461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0437E9D3-FD96-17A4-A829-ADF70B4FEBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0437E9D3-FD96-17A4-A829-ADF70B4FEBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0437E9D3-FD96-17A4-A829-ADF70B4FEBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0437E9D3-FD96-17A4-A829-ADF70B4FEBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27624A02-D48D-6992-6D29-6F30599939AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27624A02-D48D-6992-6D29-6F30599939AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27624A02-D48D-6992-6D29-6F30599939AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27624A02-D48D-6992-6D29-6F30599939AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1833F68-6043-B099-A9C2-355104F68B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1833F68-6043-B099-A9C2-355104F68B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1833F68-6043-B099-A9C2-355104F68B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1833F68-6043-B099-A9C2-355104F68B76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58689060-7FA1-1F8B-62B0-F4144C8A8461} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{0437E9D3-FD96-17A4-A829-ADF70B4FEBD0} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{27624A02-D48D-6992-6D29-6F30599939AB} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{C3A0BA3A-453E-0DD4-9D2F-71345009D9D2} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{E1833F68-6043-B099-A9C2-355104F68B76} = {C3A0BA3A-453E-0DD4-9D2F-71345009D9D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0AFC0F2-A910-467F-B556-A0B98B6BC0A5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/bin/Debug/net8.0/Chuks-Kitchen.Services.deps.json
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/bin/Debug/net8.0/Chuks-Kitchen.Services.dll
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/bin/Debug/net8.0/Chuks-Kitchen.Services.pdb
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/bin/Debug/net8.0/Chuks-Kitchen.Migrations.dll
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/bin/Debug/net8.0/Chuks-Kitchen.Models.dll
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/bin/Debug/net8.0/Chuks-Kitchen.Models.pdb
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/bin/Debug/net8.0/Chuks-Kitchen.Migrations.pdb
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/obj/Debug/net8.0/Chuks-Kitchen.Services.csproj.AssemblyReference.cache
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/obj/Debug/net8.0/Chuks-Kitchen.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/obj/Debug/net8.0/Chuks-Kitchen.Services.AssemblyInfoInputs.cache
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/obj/Debug/net8.0/Chuks-Kitchen.Services.AssemblyInfo.cs
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/obj/Debug/net8.0/Chuks-Kitchen.Services.csproj.CoreCompileInputs.cache
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/obj/Debug/net8.0/Chuks-Ki.5209DB5E.Up2Date
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/obj/Debug/net8.0/Chuks-Kitchen.Services.dll
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/obj/Debug/net8.0/refint/Chuks-Kitchen.Services.dll
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/obj/Debug/net8.0/Chuks-Kitchen.Services.pdb
+/Users/mac/Documents/TrueMind Projects/CHUKS KITCHEN/src/Chuks-Kitchen.Services/obj/Debug/net8.0/ref/Chuks-Kitchen.Services.dll

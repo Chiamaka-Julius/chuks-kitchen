@@ -1,0 +1,150 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Length 2055 >>
+stream
+BT /F1 18 Tf 160 805 Td (Chuks Kitchen - System Process Flow) Tj ET
+BT /F1 10 Tf 35 785 Td (\(User registration, menu browsing, cart, order creation, and status lifecycle\)) Tj ET
+150 715 295 44 re S
+BT /F1 10 Tf 160 732 Td (1. User signs up \(email/phone + optional referral\)) Tj ET
+150 650 295 44 re S
+BT /F1 10 Tf 160 667 Td (2. System validates uniqueness and generates OTP) Tj ET
+150 585 295 44 re S
+BT /F1 10 Tf 160 602 Td (3. User verifies account with OTP) Tj ET
+150 520 295 44 re S
+BT /F1 10 Tf 160 537 Td (4. User browses foods and adds item\(s\) to cart) Tj ET
+150 455 295 44 re S
+BT /F1 10 Tf 160 472 Td (5. System validates availability and totals) Tj ET
+150 390 295 44 re S
+BT /F1 10 Tf 160 407 Td (6. User places order \(status = Pending\)) Tj ET
+150 325 295 44 re S
+BT /F1 10 Tf 160 342 Td (7. Admin updates lifecycle: Confirmed -> Preparing -> OutForDelivery -> Completed) Tj ET
+1 w 297.5 715 m 297.5 694 l S
+1 w 297.5 694 m 293.5 700 l S
+1 w 297.5 694 m 301.5 700 l S
+1 w 297.5 650 m 297.5 629 l S
+1 w 297.5 629 m 293.5 635 l S
+1 w 297.5 629 m 301.5 635 l S
+1 w 297.5 585 m 297.5 564 l S
+1 w 297.5 564 m 293.5 570 l S
+1 w 297.5 564 m 301.5 570 l S
+1 w 297.5 520 m 297.5 499 l S
+1 w 297.5 499 m 293.5 505 l S
+1 w 297.5 499 m 301.5 505 l S
+1 w 297.5 455 m 297.5 434 l S
+1 w 297.5 434 m 293.5 440 l S
+1 w 297.5 434 m 301.5 440 l S
+1 w 297.5 390 m 297.5 369 l S
+1 w 297.5 369 m 293.5 375 l S
+1 w 297.5 369 m 301.5 375 l S
+40 510 95 125 re S
+BT /F1 10 Tf 47 617 Td (Edge Cases) Tj ET
+BT /F1 9 Tf 47 600 Td (- Invalid referral) Tj ET
+BT /F1 9 Tf 47 585 Td (- Invalid/expired OTP) Tj ET
+BT /F1 9 Tf 47 570 Td (- Empty cart) Tj ET
+BT /F1 9 Tf 47 555 Td (- Unavailable food) Tj ET
+BT /F1 9 Tf 47 540 Td (- Invalid status move) Tj ET
+1 w 135 570 m 150 540 l S
+455 315 100 95 re S
+BT /F1 10 Tf 463 390 Td (Cancel Path) Tj ET
+BT /F1 9 Tf 463 373 Td (Pending/Confirmed/) Tj ET
+BT /F1 9 Tf 463 360 Td (Preparing/OutForDelivery) Tj ET
+BT /F1 9 Tf 463 345 Td (can transition to) Tj ET
+BT /F1 9 Tf 463 332 Td (Cancelled) Tj ET
+1 w 445 346 m 455 356 l S
+endstream
+endobj
+3 0 obj
+<< /Length 2377 >>
+stream
+BT /F1 18 Tf 170 805 Td (Chuks Kitchen - Data Model \(ERD\)) Tj ET
+BT /F1 10 Tf 35 785 Td (Primary entities and relationships for backend implementation) Tj ET
+35 610 160 145 re S
+1 w 35 735 m 195 735 l S
+BT /F1 10 Tf 41 741 Td (Users) Tj ET
+BT /F1 8 Tf 41 719 Td (PK Id : uuid) Tj ET
+BT /F1 8 Tf 41 707 Td (Email : text \(unique\)) Tj ET
+BT /F1 8 Tf 41 695 Td (PhoneNumber : text \(unique\)) Tj ET
+BT /F1 8 Tf 41 683 Td (ReferralCode : text?) Tj ET
+BT /F1 8 Tf 41 671 Td (IsVerified : bool) Tj ET
+BT /F1 8 Tf 41 659 Td (CreatedAtUtc : timestamp) Tj ET
+225 660 160 90 re S
+1 w 225 730 m 385 730 l S
+BT /F1 10 Tf 231 736 Td (OtpVerifications) Tj ET
+BT /F1 8 Tf 231 714 Td (PK/FK UserId : uuid) Tj ET
+BT /F1 8 Tf 231 702 Td (Code : text) Tj ET
+BT /F1 8 Tf 231 690 Td (ExpiresAtUtc : timestamp) Tj ET
+410 610 150 110 re S
+1 w 410 700 m 560 700 l S
+BT /F1 10 Tf 416 706 Td (Foods) Tj ET
+BT /F1 8 Tf 416 684 Td (PK Id : uuid) Tj ET
+BT /F1 8 Tf 416 672 Td (Name : text) Tj ET
+BT /F1 8 Tf 416 660 Td (Price : decimal\(18,2\)) Tj ET
+BT /F1 8 Tf 416 648 Td (IsAvailable : bool) Tj ET
+35 410 175 110 re S
+1 w 35 500 m 210 500 l S
+BT /F1 10 Tf 41 506 Td (CartItems) Tj ET
+BT /F1 8 Tf 41 484 Td (PK/FK UserId : uuid) Tj ET
+BT /F1 8 Tf 41 472 Td (PK/FK FoodId : uuid) Tj ET
+BT /F1 8 Tf 41 460 Td (Quantity : int) Tj ET
+250 410 160 115 re S
+1 w 250 505 m 410 505 l S
+BT /F1 10 Tf 256 511 Td (Orders) Tj ET
+BT /F1 8 Tf 256 489 Td (PK Id : uuid) Tj ET
+BT /F1 8 Tf 256 477 Td (FK UserId : uuid) Tj ET
+BT /F1 8 Tf 256 465 Td (TotalAmount : decimal\(18,2\)) Tj ET
+BT /F1 8 Tf 256 453 Td (CreatedAtUtc : timestamp) Tj ET
+BT /F1 8 Tf 256 441 Td (Status : int/enum) Tj ET
+430 390 150 120 re S
+1 w 430 490 m 580 490 l S
+BT /F1 10 Tf 436 496 Td (OrderItems) Tj ET
+BT /F1 8 Tf 436 474 Td (PK Id : int) Tj ET
+BT /F1 8 Tf 436 462 Td (FK OrderId : uuid) Tj ET
+BT /F1 8 Tf 436 450 Td (FK FoodId : uuid) Tj ET
+BT /F1 8 Tf 436 438 Td (Quantity : int) Tj ET
+BT /F1 8 Tf 436 426 Td (UnitPrice : decimal\(18,2\)) Tj ET
+1 w 195 705 m 225 705 l S
+BT /F1 8 Tf 198 712 Td (1:1) Tj ET
+1 w 115 610 m 115 520 l S
+1 w 115 520 m 122 520 l S
+BT /F1 8 Tf 118 530 Td (1:M) Tj ET
+1 w 410 640 m 210 470 l S
+BT /F1 8 Tf 300 560 Td (1:M) Tj ET
+1 w 195 455 m 250 455 l S
+BT /F1 8 Tf 205 462 Td (1:M) Tj ET
+1 w 410 455 m 430 455 l S
+BT /F1 8 Tf 413 462 Td (1:M) Tj ET
+1 w 485 610 m 505 510 l S
+BT /F1 8 Tf 490 560 Td (1:M) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 6 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 6 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 3 0 R >>
+endobj
+6 0 obj
+<< /Type /Pages /Count 2 /Kids [4 0 R 5 0 R] >>
+endobj
+7 0 obj
+<< /Type /Catalog /Pages 6 0 R >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000002191 00000 n 
+0000004619 00000 n 
+0000004745 00000 n 
+0000004871 00000 n 
+0000004934 00000 n 
+trailer
+<< /Size 8 /Root 7 0 R >>
+startxref
+4983
+%%EOF
