@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chuks-Kitchen.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c3d332552d32dd3905541349cae62549250651e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chuks-Kitchen.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chuks-Kitchen.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
